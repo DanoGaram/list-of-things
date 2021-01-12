@@ -1,0 +1,28 @@
+.button-container {
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: all .3s ease-in-out;
+}
+
+.button-container:hover {
+  transform: scale(1.2) ;
+}
+
+.primary {
+  background-color: #e5d040;
+  color: #f4f4fb;
+}
+
+.secondary {
+  background-color: #e54092;
+  color: #f4f4fb;
+}
+
+.default {
+  background-color: #b3e4f3;
+  color: #3f3f6b;
+}
